@@ -24,11 +24,6 @@
 
 ## 🎓 Worked on
 
-- GitHub Copilot
-- Creating a RegEx for a-zA-Z#$<>{}!
-- Creating a split(RegEx)
-- addEventListener on input
-
-## 🚀 Updates
-
-- textarea border
+- How to open web pages automatically
+- How to manipulate web pages automatically (use input, button)
+- How to get information based on what is on the web page and save it

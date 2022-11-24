@@ -42,3 +42,8 @@ main {
   align-self: end;
   margin-top: 1.25rem;
 }
+
+textarea {
+  border: none;
+  border-right: 1px solid #2E1;
+}

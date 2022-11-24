@@ -1,0 +1,1382 @@
+@font-face {
+  font-family: "ts-font";
+  src: url("../fonts/ts-font.ttf?vmodkd") format("truetype"),
+    url("../fonts/ts-font.woff?vmodkd") format("woff"),
+    url("../fonts/ts-font.svg?vmodkd#ts-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "ts-font";
+  src: url("../fonts/ts-font2.ttf?4texen") format("truetype"),
+    url("../fonts/ts-font2.woff?4texen") format("woff"),
+    url("../fonts/ts-font2.svg?4texen#ts-font") format("svg");
+}
+
+[class^="tsicon-"],
+[class*=" tsicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "ts-font" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tsicon-plus-icon:before {
+  content: "\e97d";
+}
+.tsicon-mobile:before {
+  content: "\e000";
+}
+.tsicon-laptop:before {
+  content: "\e001";
+}
+.tsicon-desktop:before {
+  content: "\e002";
+}
+.tsicon-tablet:before {
+  content: "\e003";
+}
+.tsicon-phone:before {
+  content: "\e004";
+}
+.tsicon-document:before {
+  content: "\e005";
+}
+.tsicon-documents:before {
+  content: "\e006";
+}
+.tsicon-search:before {
+  content: "\e007";
+}
+.tsicon-clipboard:before {
+  content: "\e008";
+}
+.tsicon-newspaper:before {
+  content: "\e009";
+}
+.tsicon-notebook:before {
+  content: "\e00a";
+}
+.tsicon-book-open:before {
+  content: "\e00b";
+}
+.tsicon-browser:before {
+  content: "\e00c";
+}
+.tsicon-calendar:before {
+  content: "\e00d";
+}
+.tsicon-presentation:before {
+  content: "\e00e";
+}
+.tsicon-picture:before {
+  content: "\e00f";
+}
+.tsicon-pictures:before {
+  content: "\e010";
+}
+.tsicon-video:before {
+  content: "\e011";
+}
+.tsicon-camera:before {
+  content: "\e012";
+}
+.tsicon-printer:before {
+  content: "\e013";
+}
+.tsicon-toolbox:before {
+  content: "\e014";
+}
+.tsicon-briefcase:before {
+  content: "\e015";
+}
+.tsicon-wallet:before {
+  content: "\e016";
+}
+.tsicon-gift:before {
+  content: "\e017";
+}
+.tsicon-bargraph:before {
+  content: "\e018";
+}
+.tsicon-grid:before {
+  content: "\e019";
+}
+.tsicon-expand:before {
+  content: "\e01a";
+}
+.tsicon-focus:before {
+  content: "\e01b";
+}
+.tsicon-edit:before {
+  content: "\e01c";
+}
+.tsicon-adjustments:before {
+  content: "\e01d";
+}
+.tsicon-ribbon:before {
+  content: "\e01e";
+}
+.tsicon-hourglass:before {
+  content: "\e01f";
+}
+.tsicon-lock:before {
+  content: "\e020";
+}
+.tsicon-megaphone:before {
+  content: "\e021";
+}
+.tsicon-shield:before {
+  content: "\e022";
+}
+.tsicon-trophy:before {
+  content: "\e023";
+}
+.tsicon-flag:before {
+  content: "\e024";
+}
+.tsicon-map:before {
+  content: "\e025";
+}
+.tsicon-puzzle:before {
+  content: "\e026";
+}
+.tsicon-basket:before {
+  content: "\e027";
+}
+.tsicon-envelope:before {
+  content: "\e028";
+}
+.tsicon-streetsign:before {
+  content: "\e029";
+}
+.tsicon-telescope:before {
+  content: "\e02a";
+}
+.tsicon-gears:before {
+  content: "\e02b";
+}
+.tsicon-key:before {
+  content: "\e02c";
+}
+.tsicon-paperclip:before {
+  content: "\e02d";
+}
+.tsicon-attachment:before {
+  content: "\e02e";
+}
+.tsicon-pricetags:before {
+  content: "\e02f";
+}
+.tsicon-lightbulb:before {
+  content: "\e030";
+}
+.tsicon-layers:before {
+  content: "\e031";
+}
+.tsicon-pencil:before {
+  content: "\e032";
+}
+.tsicon-tools:before {
+  content: "\e033";
+}
+.tsicon-tools-2:before {
+  content: "\e034";
+}
+.tsicon-scissors:before {
+  content: "\e035";
+}
+.tsicon-paintbrush:before {
+  content: "\e036";
+}
+.tsicon-magnifying-glass:before {
+  content: "\e037";
+}
+.tsicon-circle-compass:before {
+  content: "\e038";
+}
+.tsicon-linegraph:before {
+  content: "\e039";
+}
+.tsicon-mic:before {
+  content: "\e03a";
+}
+.tsicon-strategy:before {
+  content: "\e03b";
+}
+.tsicon-beaker:before {
+  content: "\e03c";
+}
+.tsicon-caution:before {
+  content: "\e03d";
+}
+.tsicon-recycle:before {
+  content: "\e03e";
+}
+.tsicon-anchor:before {
+  content: "\e03f";
+}
+.tsicon-profile-male:before {
+  content: "\e040";
+}
+.tsicon-profile-female:before {
+  content: "\e041";
+}
+.tsicon-bike:before {
+  content: "\e042";
+}
+.tsicon-wine:before {
+  content: "\e043";
+}
+.tsicon-hotairballoon:before {
+  content: "\e044";
+}
+.tsicon-globe:before {
+  content: "\e045";
+}
+.tsicon-genius:before {
+  content: "\e046";
+}
+.tsicon-map-pin:before {
+  content: "\e047";
+}
+.tsicon-dial:before {
+  content: "\e048";
+}
+.tsicon-chat:before {
+  content: "\e049";
+}
+.tsicon-heart:before {
+  content: "\e04a";
+}
+.tsicon-cloud:before {
+  content: "\e04b";
+}
+.tsicon-upload:before {
+  content: "\e04c";
+}
+.tsicon-download:before {
+  content: "\e04d";
+}
+.tsicon-target:before {
+  content: "\e04e";
+}
+.tsicon-hazardous:before {
+  content: "\e04f";
+}
+.tsicon-piechart:before {
+  content: "\e050";
+}
+.tsicon-speedometer:before {
+  content: "\e051";
+}
+.tsicon-global:before {
+  content: "\e052";
+}
+.tsicon-compass:before {
+  content: "\e053";
+}
+.tsicon-lifesaver:before {
+  content: "\e054";
+}
+.tsicon-clock:before {
+  content: "\e055";
+}
+.tsicon-aperture:before {
+  content: "\e056";
+}
+.tsicon-quote:before {
+  content: "\e057";
+}
+.tsicon-scope:before {
+  content: "\e058";
+}
+.tsicon-alarmclock:before {
+  content: "\e059";
+}
+.tsicon-refresh:before {
+  content: "\e05a";
+}
+.tsicon-happy:before {
+  content: "\e05b";
+}
+.tsicon-sad:before {
+  content: "\e05c";
+}
+.tsicon-facebook:before {
+  content: "\e05d";
+}
+.tsicon-twitter:before {
+  content: "\e05e";
+}
+.tsicon-googleplus:before {
+  content: "\e05f";
+}
+.tsicon-rss:before {
+  content: "\e060";
+}
+.tsicon-tumblr:before {
+  content: "\e061";
+}
+.tsicon-linkedin:before {
+  content: "\e062";
+}
+.tsicon-dribbble:before {
+  content: "\e063";
+}
+.tsicon-home:before {
+  content: "\e800";
+}
+.tsicon-apartment:before {
+  content: "\e801";
+}
+.tsicon-pencil1:before {
+  content: "\e802";
+}
+.tsicon-magic-wand:before {
+  content: "\e803";
+}
+.tsicon-drop:before {
+  content: "\e804";
+}
+.tsicon-lighter:before {
+  content: "\e805";
+}
+.tsicon-poop:before {
+  content: "\e806";
+}
+.tsicon-sun:before {
+  content: "\e807";
+}
+.tsicon-moon:before {
+  content: "\e808";
+}
+.tsicon-cloud1:before {
+  content: "\e809";
+}
+.tsicon-cloud-upload:before {
+  content: "\e80a";
+}
+.tsicon-cloud-download:before {
+  content: "\e80b";
+}
+.tsicon-cloud-sync:before {
+  content: "\e80c";
+}
+.tsicon-cloud-check:before {
+  content: "\e80d";
+}
+.tsicon-database:before {
+  content: "\e80e";
+}
+.tsicon-lock1:before {
+  content: "\e80f";
+}
+.tsicon-cog:before {
+  content: "\e810";
+}
+.tsicon-trash:before {
+  content: "\e811";
+}
+.tsicon-dice:before {
+  content: "\e812";
+}
+.tsicon-heart1:before {
+  content: "\e813";
+}
+.tsicon-star:before {
+  content: "\e814";
+}
+.tsicon-star-half:before {
+  content: "\e815";
+}
+.tsicon-star-empty:before {
+  content: "\e816";
+}
+.tsicon-flag1:before {
+  content: "\e817";
+}
+.tsicon-envelope1:before {
+  content: "\e818";
+}
+.tsicon-paperclip1:before {
+  content: "\e819";
+}
+.tsicon-inbox:before {
+  content: "\e81a";
+}
+.tsicon-eye:before {
+  content: "\e81b";
+}
+.tsicon-printer1:before {
+  content: "\e81c";
+}
+.tsicon-file-empty:before {
+  content: "\e81d";
+}
+.tsicon-file-add:before {
+  content: "\e81e";
+}
+.tsicon-enter:before {
+  content: "\e81f";
+}
+.tsicon-exit:before {
+  content: "\e820";
+}
+.tsicon-graduation-hat:before {
+  content: "\e821";
+}
+.tsicon-license:before {
+  content: "\e822";
+}
+.tsicon-music-note:before {
+  content: "\e823";
+}
+.tsicon-film-play:before {
+  content: "\e824";
+}
+.tsicon-camera-video:before {
+  content: "\e825";
+}
+.tsicon-camera1:before {
+  content: "\e826";
+}
+.tsicon-picture1:before {
+  content: "\e827";
+}
+.tsicon-book:before {
+  content: "\e828";
+}
+.tsicon-bookmark:before {
+  content: "\e829";
+}
+.tsicon-user:before {
+  content: "\e82a";
+}
+.tsicon-users:before {
+  content: "\e82b";
+}
+.tsicon-shirt:before {
+  content: "\e82c";
+}
+.tsicon-store:before {
+  content: "\e82d";
+}
+.tsicon-cart:before {
+  content: "\e82e";
+}
+.tsicon-tag:before {
+  content: "\e82f";
+}
+.tsicon-phone-handset:before {
+  content: "\e830";
+}
+.tsicon-phone1:before {
+  content: "\e831";
+}
+.tsicon-pushpin:before {
+  content: "\e832";
+}
+.tsicon-map-marker:before {
+  content: "\e833";
+}
+.tsicon-map1:before {
+  content: "\e834";
+}
+.tsicon-location:before {
+  content: "\e835";
+}
+.tsicon-calendar-full:before {
+  content: "\e836";
+}
+.tsicon-keyboard:before {
+  content: "\e837";
+}
+.tsicon-spell-check:before {
+  content: "\e838";
+}
+.tsicon-screen:before {
+  content: "\e839";
+}
+.tsicon-smartphone:before {
+  content: "\e83a";
+}
+.tsicon-tablet1:before {
+  content: "\e83b";
+}
+.tsicon-laptop1:before {
+  content: "\e83c";
+}
+.tsicon-laptop-phone:before {
+  content: "\e83d";
+}
+.tsicon-power-switch:before {
+  content: "\e83e";
+}
+.tsicon-bubble:before {
+  content: "\e83f";
+}
+.tsicon-heart-pulse:before {
+  content: "\e840";
+}
+.tsicon-construction:before {
+  content: "\e841";
+}
+.tsicon-pie-chart:before {
+  content: "\e842";
+}
+.tsicon-chart-bars:before {
+  content: "\e843";
+}
+.tsicon-gift1:before {
+  content: "\e844";
+}
+.tsicon-diamond:before {
+  content: "\e845";
+}
+.tsicon-dinner:before {
+  content: "\e847";
+}
+.tsicon-coffee-cup:before {
+  content: "\e848";
+}
+.tsicon-leaf:before {
+  content: "\e849";
+}
+.tsicon-paw:before {
+  content: "\e84a";
+}
+.tsicon-rocket:before {
+  content: "\e84b";
+}
+.tsicon-briefcase1:before {
+  content: "\e84c";
+}
+.tsicon-bus:before {
+  content: "\e84d";
+}
+.tsicon-car:before {
+  content: "\e84e";
+}
+.tsicon-train:before {
+  content: "\e84f";
+}
+.tsicon-bicycle:before {
+  content: "\e850";
+}
+.tsicon-wheelchair:before {
+  content: "\e851";
+}
+.tsicon-select:before {
+  content: "\e852";
+}
+.tsicon-earth:before {
+  content: "\e853";
+}
+.tsicon-smile:before {
+  content: "\e854";
+}
+.tsicon-sad1:before {
+  content: "\e855";
+}
+.tsicon-neutral:before {
+  content: "\e856";
+}
+.tsicon-mustache:before {
+  content: "\e857";
+}
+.tsicon-alarm:before {
+  content: "\e858";
+}
+.tsicon-bullhorn:before {
+  content: "\e859";
+}
+.tsicon-volume-high:before {
+  content: "\e85a";
+}
+.tsicon-volume-medium:before {
+  content: "\e85b";
+}
+.tsicon-volume-low:before {
+  content: "\e85c";
+}
+.tsicon-volume:before {
+  content: "\e85d";
+}
+.tsicon-mic1:before {
+  content: "\e85e";
+}
+.tsicon-hourglass1:before {
+  content: "\e85f";
+}
+.tsicon-undo:before {
+  content: "\e860";
+}
+.tsicon-redo:before {
+  content: "\e861";
+}
+.tsicon-sync:before {
+  content: "\e862";
+}
+.tsicon-history:before {
+  content: "\e863";
+}
+.tsicon-clock1:before {
+  content: "\e864";
+}
+.tsicon-download1:before {
+  content: "\e865";
+}
+.tsicon-upload1:before {
+  content: "\e866";
+}
+.tsicon-enter-down:before {
+  content: "\e867";
+}
+.tsicon-exit-up:before {
+  content: "\e868";
+}
+.tsicon-bug:before {
+  content: "\e869";
+}
+.tsicon-code:before {
+  content: "\e86a";
+}
+.tsicon-link:before {
+  content: "\e86b";
+}
+.tsicon-unlink:before {
+  content: "\e86c";
+}
+.tsicon-thumbs-up:before {
+  content: "\e86d";
+}
+.tsicon-thumbs-down:before {
+  content: "\e86e";
+}
+.tsicon-magnifier:before {
+  content: "\e86f";
+}
+.tsicon-cross:before {
+  content: "\e870";
+}
+.tsicon-menu:before {
+  content: "\e871";
+}
+.tsicon-list:before {
+  content: "\e872";
+}
+.tsicon-chevron-up:before {
+  content: "\e873";
+}
+.tsicon-chevron-down:before {
+  content: "\e874";
+}
+.tsicon-chevron-left:before {
+  content: "\e875";
+}
+.tsicon-chevron-right:before {
+  content: "\e876";
+}
+.tsicon-arrow-up:before {
+  content: "\e877";
+}
+.tsicon-arrow-down:before {
+  content: "\e878";
+}
+.tsicon-arrow-left:before {
+  content: "\e879";
+}
+.tsicon-arrow-right:before {
+  content: "\e87a";
+}
+.tsicon-move:before {
+  content: "\e87b";
+}
+.tsicon-warning:before {
+  content: "\e87c";
+}
+.tsicon-question-circle:before {
+  content: "\e87d";
+}
+.tsicon-menu-circle:before {
+  content: "\e87e";
+}
+.tsicon-checkmark-circle:before {
+  content: "\e87f";
+}
+.tsicon-cross-circle:before {
+  content: "\e880";
+}
+.tsicon-plus-circle:before {
+  content: "\e881";
+}
+.tsicon-circle-minus:before {
+  content: "\e882";
+}
+.tsicon-arrow-up-circle:before {
+  content: "\e883";
+}
+.tsicon-arrow-down-circle:before {
+  content: "\e884";
+}
+.tsicon-arrow-left-circle:before {
+  content: "\e885";
+}
+.tsicon-arrow-right-circle:before {
+  content: "\e886";
+}
+.tsicon-chevron-up-circle:before {
+  content: "\e887";
+}
+.tsicon-chevron-down-circle:before {
+  content: "\e888";
+}
+.tsicon-chevron-left-circle:before {
+  content: "\e889";
+}
+.tsicon-chevron-right-circle:before {
+  content: "\e88a";
+}
+.tsicon-crop:before {
+  content: "\e88b";
+}
+.tsicon-frame-expand:before {
+  content: "\e88c";
+}
+.tsicon-frame-contract:before {
+  content: "\e88d";
+}
+.tsicon-layers1:before {
+  content: "\e88e";
+}
+.tsicon-funnel:before {
+  content: "\e88f";
+}
+.tsicon-text-format:before {
+  content: "\e890";
+}
+.tsicon-text-size:before {
+  content: "\e892";
+}
+.tsicon-bold:before {
+  content: "\e893";
+}
+.tsicon-italic:before {
+  content: "\e894";
+}
+.tsicon-underline:before {
+  content: "\e895";
+}
+.tsicon-strikethrough:before {
+  content: "\e896";
+}
+.tsicon-highlight:before {
+  content: "\e897";
+}
+.tsicon-text-align-left:before {
+  content: "\e898";
+}
+.tsicon-text-align-center:before {
+  content: "\e899";
+}
+.tsicon-text-align-right:before {
+  content: "\e89a";
+}
+.tsicon-text-align-justify:before {
+  content: "\e89b";
+}
+.tsicon-line-spacing:before {
+  content: "\e89c";
+}
+.tsicon-indent-increase:before {
+  content: "\e89d";
+}
+.tsicon-indent-decrease:before {
+  content: "\e89e";
+}
+.tsicon-page-break:before {
+  content: "\e8a2";
+}
+.tsicon-hand:before {
+  content: "\e8a5";
+}
+.tsicon-pointer-up:before {
+  content: "\e8a6";
+}
+.tsicon-pointer-right:before {
+  content: "\e8a7";
+}
+.tsicon-pointer-down:before {
+  content: "\e8a8";
+}
+.tsicon-pointer-left:before {
+  content: "\e8a9";
+}
+.tsicon-icon01:before {
+  content: "\e900";
+}
+.tsicon-doctor:before {
+  content: "\e901";
+}
+.tsicon-car-accident-o:before {
+  content: "\e902";
+}
+.tsicon-tv:before {
+  content: "\e903";
+}
+.tsicon-ambulance:before {
+  content: "\e904";
+}
+.tsicon-ship-accident:before {
+  content: "\e905";
+}
+.tsicon-signal:before {
+  content: "\e906";
+}
+.tsicon-user-o:before {
+  content: "\e907";
+}
+.tsicon-button_icon03:before {
+  content: "\e908";
+}
+.tsicon-button_icon04:before {
+  content: "\e909";
+}
+.tsicon-button_icon05:before {
+  content: "\e90a";
+}
+.tsicon-cta_icon:before {
+  content: "\e90b";
+}
+.tsicon-feature_icon01:before {
+  content: "\e90c";
+}
+.tsicon-feature_icon02:before {
+  content: "\e90d";
+}
+.tsicon-feature_icon03:before {
+  content: "\e90e";
+}
+.tsicon-dollar:before {
+  content: "\e90f";
+}
+.tsicon-user-fill:before {
+  content: "\e910";
+}
+.tsicon-envelop-fill:before {
+  content: "\e911";
+}
+.tsicon-building:before {
+  content: "\e912";
+}
+.tsicon-form_icon04:before {
+  content: "\e913";
+}
+.tsicon-car-accident:before {
+  content: "\e914";
+}
+.tsicon-user-group:before {
+  content: "\e915";
+}
+.tsicon-dental:before {
+  content: "\e916";
+}
+.tsicon-house:before {
+  content: "\e917";
+}
+.tsicon-balloon:before {
+  content: "\e918";
+}
+.tsicon-paper-plane:before {
+  content: "\e919";
+}
+.tsicon-icon031:before {
+  content: "\e91a";
+}
+.tsicon-v-sign:before {
+  content: "\e91b";
+}
+.tsicon-heart-o:before {
+  content: "\e91c";
+}
+.tsicon-icon032:before {
+  content: "\e91d";
+}
+.tsicon-plane:before {
+  content: "\e91e";
+}
+.tsicon-icon051:before {
+  content: "\e91f";
+}
+.tsicon-ship:before {
+  content: "\e920";
+}
+.tsicon-trolly:before {
+  content: "\e921";
+}
+.tsicon-icon08:before {
+  content: "\e922";
+}
+.tsicon-chair:before {
+  content: "\e923";
+}
+.tsicon-About2:before {
+  content: "\e924";
+}
+.tsicon-About3:before {
+  content: "\e925";
+}
+.tsicon-About4:before {
+  content: "\e926";
+}
+.tsicon-About:before {
+  content: "\e927";
+}
+.tsicon-Banner_current:before {
+  content: "\e928";
+}
+.tsicon-Banner_factory1:before {
+  content: "\e929";
+}
+.tsicon-Banner_factory:before {
+  content: "\e92a";
+}
+.tsicon-Banner_pumpjack:before {
+  content: "\e92b";
+}
+.tsicon-Funfacts2:before {
+  content: "\e92c";
+}
+.tsicon-Funfacts3:before {
+  content: "\e92d";
+}
+.tsicon-Funfacts4:before {
+  content: "\e92e";
+}
+.tsicon-Funfacts:before {
+  content: "\e92f";
+}
+.tsicon-vplay:before {
+  content: "\e930";
+}
+.tsicon-newsletter:before {
+  content: "\e931";
+}
+.tsicon-coins-2:before {
+  content: "\e932";
+}
+.tsicon-commerce-2:before {
+  content: "\e933";
+}
+.tsicon-monitor:before {
+  content: "\e934";
+}
+.tsicon-graphic-3:before {
+  content: "\e935";
+}
+.tsicon-business:before {
+  content: "\e936";
+}
+.tsicon-graphic-2:before {
+  content: "\e937";
+}
+.tsicon-commerce-1:before {
+  content: "\e938";
+}
+.tsicon-hammer:before {
+  content: "\e939";
+}
+.tsicon-graphic-1:before {
+  content: "\e93a";
+}
+.tsicon-graphic:before {
+  content: "\e93b";
+}
+.tsicon-justice-1:before {
+  content: "\e93c";
+}
+.tsicon-line:before {
+  content: "\e93d";
+}
+.tsicon-money-3:before {
+  content: "\e93e";
+}
+.tsicon-chart:before {
+  content: "\e93f";
+}
+.tsicon-commerce:before {
+  content: "\e940";
+}
+.tsicon-agenda:before {
+  content: "\e941";
+}
+.tsicon-money-2:before {
+  content: "\e942";
+}
+.tsicon-justice:before {
+  content: "\e943";
+}
+.tsicon-money-1:before {
+  content: "\e944";
+}
+.tsicon-money:before {
+  content: "\e945";
+}
+.tsicon-technology:before {
+  content: "\e946";
+}
+.tsicon-coins-1:before {
+  content: "\e947";
+}
+.tsicon-coins:before {
+  content: "\e948";
+}
+.tsicon-left-arrow:before {
+  content: "\e949";
+}
+.tsicon-bank:before {
+  content: "\e94a";
+}
+.tsicon-calculator:before {
+  content: "\e94b";
+}
+.tsicon-chart1:before {
+  content: "\e94c";
+}
+.tsicon-chart2:before {
+  content: "\e94d";
+}
+.tsicon-checked:before {
+  content: "\e94e";
+}
+.tsicon-clock2:before {
+  content: "\e94f";
+}
+.tsicon-comment:before {
+  content: "\e950";
+}
+.tsicon-comments:before {
+  content: "\e951";
+}
+.tsicon-consult:before {
+  content: "\e952";
+}
+.tsicon-consut2:before {
+  content: "\e953";
+}
+.tsicon-deal:before {
+  content: "\e954";
+}
+.tsicon-download2:before {
+  content: "\e955";
+}
+.tsicon-envelope2:before {
+  content: "\e956";
+}
+.tsicon-euro:before {
+  content: "\e957";
+}
+.tsicon-folder:before {
+  content: "\e958";
+}
+.tsicon-invest:before {
+  content: "\e959";
+}
+.tsicon-loan:before {
+  content: "\e95a";
+}
+.tsicon-map-marker1:before {
+  content: "\e95b";
+}
+.tsicon-mutual-fund:before {
+  content: "\e95c";
+}
+.tsicon-percent:before {
+  content: "\e95d";
+}
+.tsicon-phone2:before {
+  content: "\e95e";
+}
+.tsicon-pie-chart1:before {
+  content: "\e95f";
+}
+.tsicon-play:before {
+  content: "\e960";
+}
+.tsicon-left-arrow2:before {
+  content: "\e961";
+}
+.tsicon-savings:before {
+  content: "\e962";
+}
+.tsicon-search1:before {
+  content: "\e963";
+}
+.tsicon-tag1:before {
+  content: "\e964";
+}
+.tsicon-tags:before {
+  content: "\e965";
+}
+.tsicon-tax:before {
+  content: "\e966";
+}
+.tsicon-quote1:before {
+  content: "\e967";
+}
+.tsicon-right-arrow2:before {
+  content: "\e968";
+}
+.tsicon-strategicservices_icon1:before {
+  content: "\e969";
+}
+.tsicon-strategicservices_icon3:before {
+  content: "\e96a";
+}
+.tsicon-strategicservices_icon4:before {
+  content: "\e96b";
+}
+.tsicon-strategicservices_icon5:before {
+  content: "\e96c";
+}
+.tsicon-strategicservices_icon6:before {
+  content: "\e96d";
+}
+.tsicon-strategicservices_icon7:before {
+  content: "\e96e";
+}
+.tsicon-strategicservices_icon8:before {
+  content: "\e96f";
+}
+.tsicon-post_icon1:before {
+  content: "\e970";
+}
+.tsicon-post_icon2:before {
+  content: "\e971";
+}
+.tsicon-post_icon3:before {
+  content: "\e972";
+}
+.tsicon-post_icon4:before {
+  content: "\e973";
+}
+.tsicon-post_icon5:before {
+  content: "\e974";
+}
+.tsicon-application_icon:before {
+  content: "\e975";
+}
+.tsicon-opened_positions_icon1:before {
+  content: "\e976";
+}
+.tsicon-opened_positions_icon2:before {
+  content: "\e977";
+}
+.tsicon-about_us_icon1:before {
+  content: "\e978";
+}
+.tsicon-about_us_icon2:before {
+  content: "\e979";
+}
+.tsicon-about_us_icon3:before {
+  content: "\e97a";
+}
+.tsicon-about_us_icon4:before {
+  content: "\e97b";
+}
+.tsicon-zoom-in:before {
+  content: "\e98700";
+}
+
+/* New Icons */
+.tsicon-join_our_team:before {
+  content: "\e200";
+}
+.tsicon-left-arrow3:before {
+  content: "\e201";
+}
+.tsicon-life_dream:before {
+  content: "\e202";
+}
+.tsicon-lives_covered_icon:before {
+  content: "\e203";
+}
+.tsicon-medal-star:before {
+  content: "\e204";
+}
+.tsicon-messages:before {
+  content: "\e205";
+}
+.tsicon-network:before {
+  content: "\e206";
+}
+.tsicon-our_benefit:before {
+  content: "\e207";
+}
+.tsicon-our_faq:before {
+  content: "\e208";
+}
+.tsicon-our_protection_icon:before {
+  content: "\e209";
+}
+.tsicon-our_reason:before {
+  content: "\e20a";
+}
+.tsicon-Our_story:before {
+  content: "\e20b";
+}
+.tsicon-our_team:before {
+  content: "\e20c";
+}
+.tsicon-plan_icon_1:before {
+  content: "\e20d";
+}
+.tsicon-plan_icon_2:before {
+  content: "\e20e";
+}
+.tsicon-plan_icon_3:before {
+  content: "\e20f";
+}
+.tsicon-review:before {
+  content: "\e210";
+}
+.tsicon-right-arrow3:before {
+  content: "\e211";
+}
+.tsicon-team_services_benefit:before {
+  content: "\e212";
+}
+.tsicon-testimonial_icon:before {
+  content: "\e213";
+}
+.tsicon-top_up_health_icon_1:before {
+  content: "\e214";
+}
+.tsicon-top_up_health_icon_3:before {
+  content: "\e215";
+}
+.tsicon-top_up_plan_icon:before {
+  content: "\e216";
+}
+.tsicon-what_covered_icon:before {
+  content: "\e217";
+}
+.tsicon-why_do_i_need_1:before {
+  content: "\e218";
+}
+.tsicon-why_need_1:before {
+  content: "\e219";
+}
+.tsicon-why_need_2:before {
+  content: "\e21a";
+}
+.tsicon-why_need_3:before {
+  content: "\e21b";
+}
+.tsicon-why_need_4:before {
+  content: "\e21c";
+}
+.tsicon-why_need_5:before {
+  content: "\e21d";
+}
+.tsicon-why_need_icon_2:before {
+  content: "\e21e";
+}
+.tsicon-why_need_icon_3:before {
+  content: "\e21f";
+}
+.tsicon-about_us:before {
+  content: "\e220";
+}
+.tsicon-award:before {
+  content: "\e221";
+}
+.tsicon-benefit_icon_1:before {
+  content: "\e222";
+}
+.tsicon-benefit_icon_2:before {
+  content: "\e223";
+}
+.tsicon-benefit_icon_3:before {
+  content: "\e224";
+}
+.tsicon-benefit_icon_4:before {
+  content: "\e225";
+}
+.tsicon-benefit_icon_5:before {
+  content: "\e226";
+}
+.tsicon-benefit_icon_6:before {
+  content: "\e227";
+}
+.tsicon-benefit_icon_7:before {
+  content: "\e228";
+}
+.tsicon-benefit_icon_8:before {
+  content: "\e229";
+}
+.tsicon-best_offer_icon1:before {
+  content: "\e22a";
+}
+.tsicon-best_offer_icon2:before {
+  content: "\e22b";
+}
+.tsicon-call_add:before {
+  content: "\e22c";
+}
+.tsicon-companies:before {
+  content: "\e22d";
+}
+.tsicon-contact_icon_2:before {
+  content: "\e22e";
+}
+.tsicon-contact_icon_3:before {
+  content: "\e22f";
+}
+.tsicon-cover_icon_1:before {
+  content: "\e230";
+}
+.tsicon-cover_icon_2:before {
+  content: "\e231";
+}
+.tsicon-cover_icon_4:before {
+  content: "\e232";
+}
+.tsicon-cover_icon_5:before {
+  content: "\e233";
+}
+.tsicon-cover_icon_6:before {
+  content: "\e234";
+}
+.tsicon-credit-card:before {
+  content: "\e235";
+}
+.tsicon-critical_illness_icon:before {
+  content: "\e236";
+}
+.tsicon-customer:before {
+  content: "\e237";
+}
+.tsicon-fixed_benefit_icon_1:before {
+  content: "\e238";
+}
+.tsicon-fixed_benefit_icon_2:before {
+  content: "\e239";
+}
+.tsicon-indeminity_plan_icon:before {
+  content: "\e23a";
+}
+.tsicon-insurance:before {
+  content: "\e23b";
+}

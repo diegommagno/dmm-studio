@@ -1,8 +1,0 @@
-Criar uma textarea e colocar 
-textarea {
-  background: url('./src/console-bg.jpeg');
-}
-
-Scroll down: https://www.youtube.com/watch?v=ONcLNkpCXHw
-
-Fav icon: https://www.favicon.cc/?action=icon&file_id=631361

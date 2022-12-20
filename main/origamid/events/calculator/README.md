@@ -5,7 +5,7 @@
 <br>
 
 <p align="center">
-  <img alt="Page showing a working calculator." src="./.github/calculator.png" width="80%" />
+  <img alt="Page showing a working calculator." src="./.github/calculator.gif" width="80%" />
 </p>
 
 <br>

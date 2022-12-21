@@ -8,6 +8,7 @@
   <img alt="Page showing a working calculator." src="./.github/calculator.gif" width="80%" />
 </p>
 
+
 <br>
 
 ## 📝 Live Preview 

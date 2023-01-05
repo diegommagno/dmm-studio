@@ -20,6 +20,14 @@ body {
   font-size: 14px;
 }
 
+a {
+  text-decoration: none;
+  font-weight: 300;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
 
 header {
   width: 100%;
@@ -58,3 +66,29 @@ header {
   }
 }
 
+.information {
+  height: 45px;
+  width: 100%;
+  background: var(--blue);
+  text-align: center;
+  line-height: 45px;
+  margin-top: 45px;
+
+  img {
+    width: 10px;
+  }
+
+  a {
+    color: #FFF;  
+  }
+}
+
+.information-2 {
+  background: #FFF;
+  color: var(--text);
+  margin: 0;
+
+  a {
+    color: var(--blue);
+  }
+}

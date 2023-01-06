@@ -106,6 +106,13 @@ header ul li img {
   font-size: 26px;
   font-weight: 400;
 }
+.top__title h4 {
+  font-size: 15px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+  color: #D01F2A;
+}
 .top__title--links {
   margin-top: 12px;
 }
@@ -172,4 +179,27 @@ header ul li img {
 }
 .section-2 .background {
   top: -13%;
+}
+
+.section-3 {
+  width: 100%;
+  height: 690px;
+  overflow: hidden;
+  position: relative;
+  background: #000;
+}
+.section-3 h1 {
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.section-3 h1 img {
+  width: 38px;
+}
+.section-3 .background {
+  width: 290px;
+  height: 450px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
 }/*# sourceMappingURL=style.css.map */

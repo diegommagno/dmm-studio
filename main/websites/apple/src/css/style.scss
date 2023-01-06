@@ -231,3 +231,57 @@ header {
   }
 }
 
+.section-4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  &__item {
+    height: 590px;
+    flex: 0.497;  
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background: #FBFBFB;
+
+    h1 {
+      font-size: 40px;
+
+      img {
+        width: 30px;
+      }
+    }
+
+    h3 {
+      max-width: 298px;
+      font-size: 21px;
+      font-weight: 300;
+    }
+
+    a {
+      font-size: 17px;
+
+      img {
+        width: 10px;
+      }
+    }
+
+    .background {
+      height: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 2;
+    }
+  }
+}

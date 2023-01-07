@@ -264,4 +264,23 @@ header ul li img {
 .section-4__item .one {
   width: 550px;
   height: 350px;
+}
+.section-4__item .sub-title {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.section-4__item .sub-title a {
+  height: 20px;
+  width: 110px;
+  margin: auto;
+  margin-top: 10px;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+.section-4__item .sub-title img {
+  width: 18px;
+  margin-left: 5px;
 }/*# sourceMappingURL=style.css.map */

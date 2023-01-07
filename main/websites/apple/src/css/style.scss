@@ -283,5 +283,14 @@ header {
       transform: translateX(-50%);
       z-index: 2;
     }
+
+    .homePod {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 50px;
+    }
+
+    
   }
 }

@@ -269,6 +269,12 @@ header {
       font-weight: 300;
     }
 
+    h4 {
+      font-size: 12px;
+      letter-spacing: normal;
+      margin-bottom: 0;
+    }
+
     a {
       font-size: 17px;
 
@@ -291,6 +297,9 @@ header {
       bottom: 50px;
     }
 
-    
+    .one {
+      width: 550px;
+      height: 350px;
+    }
   }
 }

@@ -238,6 +238,11 @@ header ul li img {
   font-size: 21px;
   font-weight: 300;
 }
+.section-4__item h4 {
+  font-size: 12px;
+  letter-spacing: normal;
+  margin-bottom: 0;
+}
 .section-4__item a {
   font-size: 17px;
 }
@@ -255,4 +260,8 @@ header ul li img {
   left: 50%;
   transform: translateX(-50%);
   bottom: 50px;
+}
+.section-4__item .one {
+  width: 550px;
+  height: 350px;
 }/*# sourceMappingURL=style.css.map */

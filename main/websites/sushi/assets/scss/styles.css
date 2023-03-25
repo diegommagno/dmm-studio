@@ -571,7 +571,6 @@ body.dark-theme {
   display: grid;
 }
 .footer__content {
-  grid-template-columns: repeat(2, -webkit-max-content);
   grid-template-columns: repeat(2, max-content);
   gap: 2.5rem;
 }
@@ -732,14 +731,13 @@ body.dark-theme {
 /* For medium devices */
 @media screen and (min-width: 576px) {
   .home__container,
-.about__container,
-.recently__container,
-.newsletter__content {
+  .about__container,
+  .recently__container,
+  .newsletter__content {
     grid-template-columns: 0.7fr;
     justify-content: center;
   }
   .footer__content {
-    grid-template-columns: repeat(3, -webkit-max-content);
     grid-template-columns: repeat(3, max-content);
   }
 }
@@ -766,7 +764,6 @@ body.dark-theme {
     grid-template-columns: repeat(2, 250px);
   }
   .footer__content {
-    grid-template-columns: repeat(4, -webkit-max-content);
     grid-template-columns: repeat(4, max-content);
   }
 }
@@ -898,7 +895,6 @@ body.dark-theme {
   }
   .footer__container {
     position: relative;
-    grid-template-columns: repeat(2, -webkit-max-content);
     grid-template-columns: repeat(2, max-content);
     justify-content: space-between;
   }

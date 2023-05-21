@@ -3,7 +3,7 @@
 </div>
 
 <h2 align="center">
-  Ocean Labs
+  DMM Studio
 </h2>
 <p align="center">
 Repo organising all my personal projects.

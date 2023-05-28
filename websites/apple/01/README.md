@@ -27,7 +27,9 @@ Reconstructing Apple's previous website versions. <br/>
 
 <br/>
 
-[![Watch the video](https://img.youtube.com/vi/4jcyE2sBW3o/maxresdefault.jpg)](https://youtu.be/4jcyE2sBW3o)
+<p align="center">
+  <img alt="Landing page created for the event." src=".github/preview-cover.gif" width="80%" />
+</p>
 
 <br/>
 

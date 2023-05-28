@@ -1,7 +1,7 @@
 <h1 align="center"> Apple </h1>
 
 <p align="center">
-Reconstruction of an old version of Apples website. <br/>
+Reconstructing Apple's previous website versions. <br/>
 </p>
 
 <p align="center">
@@ -14,7 +14,7 @@ Reconstruction of an old version of Apples website. <br/>
 <br/>
 
 <p align="center">
-  <img alt="Project cover." src=".github/cover.png" width="80%" />
+  <img alt="Project cover." src=".github/cover.png" width="100%" />
 </p>
 
 <br/>

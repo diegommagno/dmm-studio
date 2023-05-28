@@ -23,12 +23,10 @@ Reconstructing Apple's previous website versions. <br/>
 
 - [Apple](https://dmm.studio/github/dmm-studio/main/websites/apple/01/)
 
-
-
 <br/>
 
 <p align="center">
-  <img alt="Landing page created for the event." src=".github/preview-cover.gif" width="80%" />
+  <img alt="Gif of landing page created." src=".github/preview-cover.gif" width="80%" />
 </p>
 
 <br/>

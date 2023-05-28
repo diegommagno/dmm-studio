@@ -13,7 +13,7 @@ Reconstructing Apple's previous website versions. <br/>
 
 <br/>
 
-<p align="center">
+<p align="center"></p>
   <img alt="Project cover." src=".github/cover.png" width="100%" />
 </p>
 
@@ -23,11 +23,11 @@ Reconstructing Apple's previous website versions. <br/>
 
 - [Apple](https://dmm.studio/github/dmm-studio/main/websites/apple/01/)
 
+
+
 <br/>
 
-<p align="center">
-  <img alt="Landing page created for the event." src=".github/preview-cover.gif" width="100%" />
-</p>
+[![Watch the video](https://img.youtube.com/vi/4jcyE2sBW3o/maxresdefault.jpg)](https://youtu.be/4jcyE2sBW3o)
 
 <br/>
 

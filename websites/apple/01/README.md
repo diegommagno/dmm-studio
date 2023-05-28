@@ -8,7 +8,6 @@ Reconstructing Apple's previous website versions. <br/>
   <a href="#-live-preview">Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-worked-on">Worked On</a>
 </p>
 
 <br/>
@@ -33,14 +32,10 @@ Reconstructing Apple's previous website versions. <br/>
 
 ## 🎨 Layout
 
-- You can check the layout [here](https://www.figma.com/community/file/1240650697984569274). You will need a [Figma](https://figma.com) account to access it.
+- You can check the layout video [here](https://www.youtube.com/watch?v=A3CwMiVyeW4&ab_channel=OCode). 
 
 
 ## 🧑🏻‍💻 Technologies
 
 - HTML
 - SCSS
-
-## 🎓 Worked on
-
-- CSS: `flex`, `rem`

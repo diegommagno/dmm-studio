@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body * {
+  font-size: 1.6rem;
+  font-family: "SF Pro Display", sans-serif;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 17rem 16.5rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11.6rem;
+}
+.container .nav {
+  background: blue;
+}
+.container .screen {
+  display: flex;
+  flex-direction: column;
+  gap: 6.2rem;
+  background: red;
+}
+.container .screen .apps {
+  display: flex;
+  gap: 14.4rem;
+}
+.container .screen .apps .app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.4rem;
+}/*# sourceMappingURL=style.css.map */

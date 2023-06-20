@@ -15,21 +15,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
-  ::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("../img/bg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    filter: blur(7px);
-    z-index: -1;
-  }
 }
 
 body * {
@@ -41,7 +26,7 @@ body * {
 #app {
   width: 100vw;
   height: 100vh;
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,7 +51,7 @@ body * {
     .apps {
       display: flex;
       align-items: center;
-    justify-content: center;
+      justify-content: center;
       gap: 14.4rem;
 
       .app {
@@ -77,6 +62,15 @@ body * {
         gap: 1.4rem;
 
         cursor: pointer;
+
+        
+        img {
+          transition: transform 0.2s ease-in-out;
+          
+          &:hover {
+            transform: scale(1.030);
+          }
+        }
       }
     }
   }

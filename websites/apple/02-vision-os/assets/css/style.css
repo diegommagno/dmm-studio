@@ -16,20 +16,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-body ::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("../img/bg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  filter: blur(7px);
-  z-index: -1;
-}
 
 body * {
   font-size: 1.6rem;
@@ -70,4 +56,10 @@ body * {
   justify-content: center;
   gap: 1.4rem;
   cursor: pointer;
+}
+.container .screen .apps .app img {
+  transition: transform 0.2s ease-in-out;
+}
+.container .screen .apps .app img:hover {
+  transform: scale(1.03);
 }/*# sourceMappingURL=style.css.map */

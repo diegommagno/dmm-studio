@@ -37,17 +37,15 @@ body * {
   justify-content: center;
   gap: 11.6rem;
 }
-.container .nav {
-  background: blue;
-}
 .container .screen {
   display: flex;
   flex-direction: column;
   gap: 6.2rem;
-  background: red;
 }
 .container .screen .apps {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 14.4rem;
 }
 .container .screen .apps .app {
@@ -56,4 +54,5 @@ body * {
   align-items: center;
   justify-content: center;
   gap: 1.4rem;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

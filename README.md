@@ -12,7 +12,7 @@ Repo organising all my personal projects.
 <br/>
 
 ### Websites
-- [Apple](https://github.com/diegommagno/dmm-studio/tree/main/websites/apple/01)
+- [Apple](https://github.com/diegommagno/dmm-studio/tree/main/websites/apple/)
 - [Sushi](https://github.com/diegommagno/dmm-studio/tree/main/websites/sushi)
 
 <br/>

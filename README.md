@@ -19,7 +19,8 @@ Repo organising all my personal projects.
 
 ### Components
 #### Dropdowns
-- [dropdown-1](https://github.com/diegommagno/dmm-studio/tree/main/components/dropdowns/dropdown-1)
+- [dropdown-1](https://github.com/diegommagno/dmm-studio/tree/main/components/dropdowns/01)
+- [dropdown-2](https://github.com/diegommagno/dmm-studio/tree/main/components/dropdowns/02)
 
 #### Navigation bars
 ##### JavaScript

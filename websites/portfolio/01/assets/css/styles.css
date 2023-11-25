@@ -357,7 +357,64 @@ img {
 }
 
 /*=============== ABOUT ===============*/
+.about__page {
+  padding-bottom: 4rem;
+}
 
+.about__perfil {
+  justify-self: center;
+}
+
+.about__content {
+  row-gap: 4rem;
+}
+
+.about__data {
+  row-gap: 2rem;
+}
+
+.about__info {
+  row-gap: .75rem;
+  text-align: center;
+}
+
+.about__name {
+  font-size: var(--h1-font-size);
+}
+
+.about__profession {
+  font-size: var(--h2-font-size);
+}
+
+.about__description b {
+  font-size: var(--first-color);
+}
+
+.about__button {
+  justify-self: center;
+}
+
+.about__skills-title {
+  font-size: var(--h3-font-size);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about__skills-img {
+  width: 35px;
+  transition: transform .4s;
+}
+
+.about__skills-img:hover {
+  transform: translateY(-.5rem);
+}
+
+.about__skills-content {
+  grid-template-columns: repeat(5, max-content);
+  justify-content: center;
+  align-items: center;
+  gap: 2rem 1.5rem;
+}
 
 /*=============== SERVICES ===============*/
 

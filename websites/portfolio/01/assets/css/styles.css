@@ -187,7 +187,7 @@ img {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: var(--first-color);
+  background-color: transparent;
   z-index: var(--z-fixed);
   transition: background-color .4s, box-shadow .4s;
 }
@@ -265,7 +265,14 @@ img {
 }
 
 /* Change background header */
+.bg-header {
+  background-color: var(--body-color);
+  box-shadow: 0 2px 16px var(--shadow-color);
+}
 
+.bg-header :is(.nav__logo, .nav__toggle) {
+  color: var(--tittle-color);
+}
 
 /* Header background color of other pages */
 .header-pages {

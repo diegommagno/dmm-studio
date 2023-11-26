@@ -554,7 +554,9 @@ img {
   margin-bottom: .25rem;
 }
 
-
+.work__page {
+  padding-bottom: 4rem;
+}
 
 /*=============== TESTIMONIAL ===============*/
 

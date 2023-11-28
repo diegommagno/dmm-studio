@@ -615,7 +615,82 @@ img {
 }
 
 /*=============== CONTACT ===============*/
+.contact__container {
+  padding-bottom: 4rem;
+}
 
+.contact__button {
+  justify-self: center;
+}
+
+.contact__page {
+  padding-block: 1rem 4rem;
+}
+
+.contact__form {
+  position: relative;
+}
+
+.contact__box {
+  position: relative;
+  width: 100%;
+  height: 58px;
+}
+
+.contact__input {
+  width: 100%;
+  height: 100%;
+  background-color: var(--body-color);
+  border: 3px solid var(--text-color-light);
+  padding: .5rem 1.5rem;
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+  transition: border-color .4s, background-color .4s;
+}
+
+.contact__input:focus {
+  border-color: var(--title-color);
+}
+
+.contact__input:-webkit-autofill {
+  transition: background-color 6000s, color 6000s;
+}
+
+.contact__label {
+  position: absolute;
+  top: -16px;
+  left: 16px;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+  background-color: var(--body-color);
+  padding: 8px;
+  transition: background-color .4s;
+}
+
+.contact__area {
+  height: 10rem;
+}
+
+.contact__area textarea {
+  resize: none;
+  padding-top: 1.25rem;
+}
+
+.contact__send {
+  padding-block: 1.25rem;
+  cursor: pointer;
+}
+
+.contact__message {
+  position: absolute;
+  bottom: -2rem;
+  left: 0;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+  transition: color .4s;
+}
 
 /*=============== FOOTER ===============*/
 

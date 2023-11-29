@@ -689,7 +689,6 @@ img {
   font-size: var(--small-font-size);
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
-  transition: color .4s;
 }
 
 /*=============== FOOTER ===============*/

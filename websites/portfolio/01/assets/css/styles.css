@@ -692,7 +692,68 @@ img {
 }
 
 /*=============== FOOTER ===============*/
+.footer {
+  background-color: var(--first-color);
+}
 
+.footer__container {
+  padding-block: 4rem 2rem;
+  text-align: center;
+  row-gap: 5rem;
+}
+
+.footer__content {
+  row-gap: 2rem;
+}
+
+.footer__content a,
+.footer__copy {
+  color: var(--white-color);
+}
+
+.footer__logo {
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-semi-bold);
+  justify-self: center;
+}
+
+.footer__links,
+.footer__social {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__links {
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer__link {
+  font-weight: var(--font-semi-bold);
+}
+
+.footer__logo:hover,
+.footer__link:hover {
+  text-decoration: underline;
+}
+
+.footer__social {
+  column-gap: 1rem;
+}
+
+.footer__social-link {
+  font-size: 1.5rem;
+  transition: transform .4s;
+}
+
+.footer__social-link:hover {
+  transform: translateY(-.25rem);
+}
+
+.footer__copy {
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+}
 
 /*=============== SCROLL BAR ===============*/
 

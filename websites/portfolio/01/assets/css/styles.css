@@ -354,6 +354,10 @@ body.dark-theme {
   padding-block: 1rem 3rem;
 }
 
+.home__content {
+  row-gap: 3rem;
+}
+
 .home__perfil {
   justify-self: center;
 }
@@ -830,10 +834,84 @@ body.dark-theme {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 320px) {
+  .container {
+    margin-inline: 1rem;
+  }
 
+  .services__modal {
+    padding-inline: .5rem;
+  }
+
+  .about__skills-content {
+    grid-template-columns: repeat(4, max-content);
+  }
+}
 
 /* For medium devices */
+@media screen and (min-width: 576px) {
+  .services__container {
+    grid-template-columns: 320px;
+    justify-content: center;
+  }
 
+  .services__modal-content {
+    width: 400px;
+  }
+
+  .work__container {
+    grid-template-columns: 350px;
+    justify-content: center;
+  }
+
+  .about__container {
+    grid-template-columns: 400px;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .services__container {
+    grid-template-columns: repeat(2, 320px);
+  }
+
+  .work__container {
+    grid-template-columns: repeat(2, 350px);
+  }
+
+  .testimonial__container {
+    max-width: 700px;
+    margin-inline: auto;
+  }
+
+  .testimonial__description {
+    width: 470px;
+    margin-inline: auto;
+  }
+
+  .contact__page {
+    grid-template-columns: 670px;
+    justify-content: center;
+  }
+
+  .contact__group {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+  }
+
+  .contact__area {
+    height: 18rem;
+  }
+
+  .contact__message {
+    bottom: 5rem;
+  }
+
+  .contact__send {
+    justify-self: center;
+    margin-top: 1.5rem;
+  }
+}
 
 /* For large devices */
 

@@ -1110,4 +1110,10 @@ body.dark-theme {
   }
 }
 
+@media screen and (min-width: 1500px) {
+  .home__rectangle {
+    width: 33vw;
+  }
+}
+
 /* For 2K resolutions (2048 x 1152, 2048 x 1536) */

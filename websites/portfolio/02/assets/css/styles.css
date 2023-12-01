@@ -116,6 +116,14 @@ img {
   height: auto;
 }
 
+.middle {
+  min-height: calc(100vh - 253.5px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /*=============== THEME ===============*/
 .nav__actions {
   display: flex;
@@ -1050,6 +1058,12 @@ body.dark-theme {
     text-align: initial;
     margin: 0;
   }
+
+  /* .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+  } */
 
   .footer__container {
     row-gap: 6rem;

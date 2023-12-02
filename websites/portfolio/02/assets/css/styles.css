@@ -628,7 +628,7 @@ body.dark-theme {
 }
 
 .work__card-container:hover .work__img {
-  filter: grayscale(1);
+  filter: grayscale(1) blur(2px);
   transform: scale(1.1);
 }
 

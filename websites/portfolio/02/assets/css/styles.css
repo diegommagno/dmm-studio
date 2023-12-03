@@ -586,7 +586,6 @@ body.dark-theme {
 }
 
 .work__img {
-  filter: grayscale(1);
   transition: filter .5s, transform .5s;
   width: 350px;
   height: 230px;

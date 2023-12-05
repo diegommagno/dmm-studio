@@ -1174,4 +1174,9 @@ body.dark-theme {
   .home__rectangle {
     width: 40vw;
   }
+
+  .work__container {
+    grid-template-columns: repeat(4, 400px);
+    row-gap: 4rem;
+  }
 }

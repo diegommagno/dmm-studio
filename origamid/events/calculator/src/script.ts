@@ -30,13 +30,13 @@ function calculate() {
   // save calculator value to localStorage
   localStorage.setItem('calculator', calculatorElement.value);
 
-  // slit lines from calculatorElement in array
+  // split lines from calculatorElement in array
   const lines = calculatorElement.value.split(/\r?\n/).map(evaluate);
 
   // put lines result in resultElement as innerHTML
   resultElement.innerHTML = `<div>${lines
     .map(eachLine => `<div>${isNumber(eachLine) ? round(eachLine) : '---'}</div>`)
-    .join('')}</div>`; // join() junta os elementos de um array em uma string e retorna essa string.
+    .join('')}</div>`; // join() - Junta os elementos de um array em uma string e retorna essa string.
 
   // calculate total from lines
   const total = lines.filter(isNumber).reduce((a, b) => a + b, 0); // Filtra para passar somente números para dentro do array.

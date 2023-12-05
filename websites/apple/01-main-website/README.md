@@ -20,7 +20,7 @@ Reconstructing Apple's previous website versions. <br/>
 
 ## 📝 Live Preview 
 
-- [Apple](https://dmm.studio/github/dmm-studio/main/websites/apple/01/)
+- [Apple](https://dmm.studio/github/dmm-studio/websites/apple/01-main-website/)
 
 <br/>
 

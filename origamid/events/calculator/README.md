@@ -1,6 +1,5 @@
 # Calculator
 
-
 > Calculator made with HTML, CSS and TypeScript.
 <br>
 
@@ -8,12 +7,11 @@
   <img alt="Page showing a working calculator." src="./.github/calculator.gif" width="80%" />
 </p>
 
-
 <br>
 
 ## 📝 Live Preview 
 
-- [Calculator](https://diegommagno.com/github/ocean-labs/main/origamid/events/calculator)
+- [Calculator](https://dmm.studio/github/dmm-studio/origamid/events/calculator/)
 
 ## 🧑🏻‍💻 Technologies
 

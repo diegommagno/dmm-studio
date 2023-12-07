@@ -568,7 +568,7 @@ body.dark-theme {
 }
 
 .work__card {
-  animation: fadeInUp 0.5s ease-out forwards;
+  animation: fadeInUp 1.5s ease-out forwards;
   opacity: 0;
 }
 
@@ -1186,6 +1186,9 @@ body.dark-theme {
   }
 }
 
+/*=============== ANIMATIONS ===============*/
+
+/* work__card */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -1196,12 +1199,6 @@ body.dark-theme {
     transform: translateY(0);
   }
 }
-
-.work__card {
-  opacity: 0;
-  animation: fadeInUp 1.5s ease-out forwards;
-}
-
 
 .work__card:nth-child(1) {
   animation-delay: 0.1s;
@@ -1260,5 +1257,32 @@ body.dark-theme {
 }
 
 .work__card:nth-child(15) {
+  animation-delay: 1.5s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.work.section .first-title {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-out forwards;
+  animation-delay: 0.2s;
+}
+
+.work.section .second-title {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+  animation-delay: 1s;
+}
+
+.work.section .third-title {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-out forwards;
   animation-delay: 1.5s;
 }

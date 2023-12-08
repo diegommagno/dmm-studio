@@ -1188,7 +1188,6 @@ body.dark-theme {
 
 /*=============== ANIMATIONS ===============*/
 
-/* work__card */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -1199,7 +1198,7 @@ body.dark-theme {
     transform: translateY(0);
   }
 }
-
+sec
 .work__card:nth-child(1) {
   animation-delay: 0.1s;
 }
@@ -1269,20 +1268,105 @@ body.dark-theme {
   }
 }
 
-.work.section .first-title {
+.work.section h2,
+.about.section h2 {
   opacity: 0;
   animation: fadeIn 1.5s ease-out forwards;
-  animation-delay: 0.2s;
 }
 
-.work.section .second-title {
-  opacity: 0;
-  animation: fadeIn 1s ease-out forwards;
+.work.section h2,
+.about.section h2{
+  animation-delay: 0.5s;
+}
+
+.work.section .second-title,
+.about__profession {
   animation-delay: 1s;
 }
 
 .work.section .third-title {
+  animation-delay: 1.5s;
+}
+
+.about__content .about__info .about__name,
+.about__content .about__info .about__profession,
+.about__content .about__info .about__description,
+.about__skills .about__skills-title,
+.about__skills-content img {
   opacity: 0;
   animation: fadeIn 1.5s ease-out forwards;
+}
+
+.about__content .about__info .about__name {
+  animation-delay: 1s;
+}
+
+.about__content .about__info .about__profession {
   animation-delay: 1.5s;
+}
+
+.about__content .about__info .about__description:nth-child(1) {
+  animation-delay: calc(1.5s + 0.5s);
+}
+
+.about__content .about__info .about__description:nth-child(2) {
+  animation-delay: calc(1.5s + 2 * 0.5s);
+}
+
+.about__content .about__info .about__description:nth-child(3) {
+  animation-delay: calc(1.5s + 3 * 0.5s);
+}
+
+.about__content .about__info .about__description:nth-child(4) {
+  animation-delay: calc(1.5s + 4 * 0.5s);
+}
+
+.about__content .about__info .about__description:nth-child(5) {
+  animation-delay: calc(1.5s + 4 * 0.5s);
+}
+
+.about__content .about__data .about__button {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-out forwards;
+  animation-delay: calc(1.5s + 5 * 0.5s);
+}
+
+.about__skills .about__skills-title {
+  animation-delay: calc(1.5s + 6 * 0.5s);
+}
+
+.about__skills .about__skills-content img:nth-child(1) {
+  animation-delay: calc(1.5s + 7 * 0.5s);
+}
+
+.about__skills .about__skills-content img:nth-child(2) {
+  animation-delay: calc(1.5s + 8 * 0.5s);
+}
+
+.about__skills .about__skills-content img:nth-child(3) {
+  animation-delay: calc(1.5s + 9 * 0.5s);
+}
+
+.about__skills .about__skills-content img:nth-child(4) {
+  animation-delay: calc(1.5s + 10 * 0.5s);
+}
+
+.about__skills .about__skills-content img:nth-child(5) {
+  animation-delay: calc(1.5s + 11 * 0.5s);
+}
+
+.about__skills .about__skills-content img:nth-child(6) {
+  animation-delay: calc(1.5s + 12 * 0.5s);
+}
+
+.about__skills .about__skills-content img:nth-child(7) {
+  animation-delay: calc(1.5s + 13 * 0.5s);
+}
+
+.about__skills .about__skills-content img:nth-child(8) {
+  animation-delay: calc(1.5s + 14 * 0.5s);
+}
+
+.about__skills .about__skills-content img:nth-child(9) {
+  animation-delay: calc(1.5s + 15 * 0.5s);
 }

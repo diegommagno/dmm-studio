@@ -1292,6 +1292,7 @@ sec
   animation-delay: 1.5s;
 }
 
+.profile__content img,
 .about__content .about__info .about__name,
 .about__content .about__info .about__profession,
 .about__content .about__info .about__description,

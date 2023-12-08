@@ -434,6 +434,10 @@ body.dark-theme {
   font-size: var(--h2-font-size);
 }
 
+.about__description-container p:not(:last-child) {
+  margin-bottom: 1em;
+}
+
 .about__description b {
   font-size: var(--first-color);
 }
@@ -1204,7 +1208,7 @@ sec
 }
 
 .work__card:nth-child(2) {
-  animation-delay: 0.2s;
+  animation-delay: 0.5s;
 }
 
 .work__card:nth-child(3) {
@@ -1306,67 +1310,67 @@ sec
 }
 
 .about__content .about__info .about__description:nth-child(1) {
-  animation-delay: calc(1.5s + 0.5s);
+  animation-delay: calc(1.5s + 0.4s);
 }
 
 .about__content .about__info .about__description:nth-child(2) {
-  animation-delay: calc(1.5s + 2 * 0.5s);
+  animation-delay: calc(1.5s + 2 * 0.4s);
 }
 
 .about__content .about__info .about__description:nth-child(3) {
-  animation-delay: calc(1.5s + 3 * 0.5s);
+  animation-delay: calc(1.5s + 3 * 0.4s);
 }
 
 .about__content .about__info .about__description:nth-child(4) {
-  animation-delay: calc(1.5s + 4 * 0.5s);
+  animation-delay: calc(1.5s + 4 * 0.4s);
 }
 
 .about__content .about__info .about__description:nth-child(5) {
-  animation-delay: calc(1.5s + 4 * 0.5s);
+  animation-delay: calc(1.5s + 5 * 0.4s);
 }
 
 .about__content .about__data .about__button {
   opacity: 0;
   animation: fadeIn 1.5s ease-out forwards;
-  animation-delay: calc(1.5s + 5 * 0.5s);
+  animation-delay: calc(1.5s + 6 * 0.4s);
 }
 
 .about__skills .about__skills-title {
-  animation-delay: calc(1.5s + 6 * 0.5s);
+  animation-delay: calc(1.5s + 7 * 0.4s);
 }
 
 .about__skills .about__skills-content img:nth-child(1) {
-  animation-delay: calc(1.5s + 7 * 0.5s);
+  animation-delay: calc(1.5s + 8 * 0.4s);
 }
 
 .about__skills .about__skills-content img:nth-child(2) {
-  animation-delay: calc(1.5s + 8 * 0.5s);
+  animation-delay: calc(1.5s + 9 * 0.4s);
 }
 
 .about__skills .about__skills-content img:nth-child(3) {
-  animation-delay: calc(1.5s + 9 * 0.5s);
+  animation-delay: calc(1.5s + 10 * 0.4s);
 }
 
 .about__skills .about__skills-content img:nth-child(4) {
-  animation-delay: calc(1.5s + 10 * 0.5s);
+  animation-delay: calc(1.5s + 11 * 0.4s);
 }
 
 .about__skills .about__skills-content img:nth-child(5) {
-  animation-delay: calc(1.5s + 11 * 0.5s);
+  animation-delay: calc(1.5s + 12 * 0.4s);
 }
 
 .about__skills .about__skills-content img:nth-child(6) {
-  animation-delay: calc(1.5s + 12 * 0.5s);
+  animation-delay: calc(1.5s + 13 * 0.4s);
 }
 
 .about__skills .about__skills-content img:nth-child(7) {
-  animation-delay: calc(1.5s + 13 * 0.5s);
+  animation-delay: calc(1.5s + 14 * 0.4s);
 }
 
 .about__skills .about__skills-content img:nth-child(8) {
-  animation-delay: calc(1.5s + 14 * 0.5s);
+  animation-delay: calc(1.5s + 15 * 0.4s);
 }
 
 .about__skills .about__skills-content img:nth-child(9) {
-  animation-delay: calc(1.5s + 15 * 0.5s);
+  animation-delay: calc(1.5s + 16 * 0.4s);
 }

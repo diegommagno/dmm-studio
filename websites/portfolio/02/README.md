@@ -1,4 +1,4 @@
-<h1 align="center"> Responsive Portfolio Website Liz </h1>
+<h1 align="center"> Responsive Portfolio Website</h1>
 
 <p align="center">
   The project is to develop a responsive portfolio website.
@@ -21,7 +21,7 @@
 
 ## 📝 Live Preview 
 
-- [Portfolio Website](https://dmm.studio/dmm-studio/websites/portfolio/01)
+- [Portfolio Website](https://dmm.studio/github/dmm-studio/websites/portfolio/02)
 
 <br/>
 

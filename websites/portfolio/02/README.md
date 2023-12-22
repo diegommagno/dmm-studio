@@ -13,10 +13,6 @@
 
 <br/>
 
-<p align="center">
-  <img alt="Project cover." src=".github/cover.png" width="80%" />
-</p>
-
 <br/>
 
 ## 📝 Live Preview 

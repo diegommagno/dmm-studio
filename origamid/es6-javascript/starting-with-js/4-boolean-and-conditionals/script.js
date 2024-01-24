@@ -57,3 +57,12 @@ console.log(x !== 10); // True, as the type is different
 // || Or
 // ! Not
 
+true && true; // True
+true && false; // False
+false && true; // False
+
+'Cat' && 'Dog'; // Dog
+5 - 5 && 5 + 5; // 0
+
+'Cat' && false; // False
+5 >= 5 && 3 < 6; // True

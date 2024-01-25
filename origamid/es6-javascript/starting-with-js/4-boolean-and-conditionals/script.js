@@ -54,15 +54,27 @@ console.log(x !== 10); // True, as the type is different
 
 // Logical operators
 // && And
-// || Or
-// ! Not
 
+// Returns the first false value or the last value if all are true
 true && true; // True
 true && false; // False
 false && true; // False
 
-'Cat' && 'Dog'; // Dog
-5 - 5 && 5 + 5; // 0
+'Cat' && 'Dog'; // Dog - True as it's a string with content. Returns the value instead of 'true'
+5 - 5 && 5 + 5; // 0 - Returns 0 as it will return the first false value.
 
-'Cat' && false; // False
-5 >= 5 && 3 < 6; // True
+'Cat' && false; // False - Cat is true, then there's a false, returns false as it's a true && false.
+5 >= 5 && 3 < 6; // True - True as both statements are true, resulting in true. This returns true instead of a value as we are comparing not getting a value.
+
+// || Or
+// Returns the first true value
+
+true || true; // True
+true || false; // True
+false || true; // True
+'Cat' || 'Dog'; // Cat - True as it's a string with content. Returns the value instead of 'true'
+5 - 5 || 5 + 5; // 10 - Returns 10 as it will return the first true value.
+'Cat' || false ; // Cat
+5 >= 5 || 3 < 6; // True
+
+// ! Not

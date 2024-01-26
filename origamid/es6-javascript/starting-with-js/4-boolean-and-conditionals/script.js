@@ -74,7 +74,53 @@ true || false; // True
 false || true; // True
 'Cat' || 'Dog'; // Cat - True as it's a string with content. Returns the value instead of 'true'
 5 - 5 || 5 + 5; // 10 - Returns 10 as it will return the first true value.
-'Cat' || false ; // Cat
+'Cat' || false ; // Cat - Returns the first true value
 5 >= 5 || 3 < 6; // True
 
 // ! Not
+
+// Switch
+
+let favoriteColor = 'Blue';
+
+switch (favoriteColor) {
+    case 'Blue':
+        console.log('Look at the sky...');
+        break;
+    case 'Green':
+        console.log('Look at the grass...');
+        break;
+    case 'Yellow':
+        console.log('Look at the sun...');
+        break;
+    default:
+        console.log('Close your eyes.');
+}
+
+// Tasks
+
+// Check if your age is higher than the one of a family member.
+// Depending on the result, log "He is older than me." or "She is younger than me." or "They are the same age as me."
+
+
+// What is the returned value from the following expression?
+let expression = (5 - 2) && (5 - ' ') && (5 - 2);
+
+// Check if the variables are truthy or falsy
+let firstName = 'Andre';
+let age = 28;
+let familyMember = false;
+let futureJob;
+let moneySaved = 0;
+
+
+// Compare the total population of Brazil with the total population of China (in millions)
+let brazil = 207;
+let china = 1340;
+
+// What will be shown in the console?
+if(('Cat' === 'cat') && (5 > 2)) {
+    console.log('True');
+} else {
+    console.log('False');
+}

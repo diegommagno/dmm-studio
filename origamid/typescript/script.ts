@@ -1,4 +1,3 @@
-"use strict";
 /*
 Global install: npm install -g typescript
 tsc script.ts to create script.js as the script.ts can not be executed in the browser.
@@ -13,8 +12,11 @@ In this example, if we remove "number" from a and b, they could be "any" value i
 To indicate it could be any: a: any, b: any
 
 */
+
 const total = 100;
-function sum(a, b) {
+
+function sum(a: number, b: number) {
     return a + b;
 }
+
 console.log(sum(10, 10));

@@ -36,3 +36,39 @@ const car: {
     brand: 'Jeep',
     year: 2014,
 };
+
+// Inference is when the type is not specified but the TS assumes the type, such as a string in product = 'Book'.
+// It's a good practice to not specify the type when it's not necessary, such as when the TS already defined it.
+
+/*
+
+const car = {
+    brand: 'Jeep',
+    year: 2014,
+};
+
+car.brand = 3; // Throws an error because TS already defined the type as string.
+*/
+
+// It's necessary specify the type when using functions. 
+// TS does not execute the functions, so it won't know the type of values.
+
+function multiply(a: number, b: number) {
+    return a * b;
+}
+
+multiply(5, 5)
+
+const nintendo = {
+    name: "Nintendo",
+    price: "2000",
+};
+
+function transformPrice(product: { name: string, price: string }) {
+    product.price = 'R$ ' + product.price;
+    return product;
+}
+
+const newProduct = transformPrice(nintendo);
+
+console.log(newProduct);

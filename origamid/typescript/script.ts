@@ -20,3 +20,19 @@ function sum(a: number, b: number) {
 }
 
 console.log(sum(10, 10));
+
+// Annotation and Inference 01
+
+// With typescript we can indicate which type of value a variable will receive. 
+
+const product: string = 'Book';
+
+let price: number = 200;
+
+const car: {
+    brand: string;
+    year: number;
+} = {
+    brand: 'Jeep',
+    year: 2014,
+};

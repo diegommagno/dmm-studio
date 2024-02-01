@@ -37,7 +37,7 @@ const car = {
 
 car.brand = 3; // Throws an error because TS already defined the type as string.
 */
-// It's necessary specify the type when using functions. 
+// It's necessary to specify the type when using functions. 
 // TS does not execute the functions, so it won't know the type of values.
 function multiply(a, b) {
     return a * b;
@@ -53,3 +53,26 @@ function transformPrice(product) {
 }
 const newProduct = transformPrice(nintendo);
 console.log(newProduct);
+// Tasks
+// 1 - Fix the function with TypeScript
+function fixText(text) {
+    return text.trim().toLowerCase();
+}
+console.log(fixText('   Hello World !  '));
+// 2 - Fix the functions with TypeScript
+const input = document.querySelector('input');
+const totalProfit = localStorage.getItem('total');
+if (input && totalProfit) {
+    input.value = totalProfit;
+    calculateProfit(Number(input.value));
+}
+function calculateProfit(value) {
+    const p = document.querySelector('p');
+    p.innerText = `Ganho total é: ${value + 100 - value * 0.2}`;
+}
+function totalMudou() {
+    const value = Number(input.value);
+    localStorage.setItem('total', value);
+    calculateProfit(value);
+}
+input?.addEventListener('keyup', totalMudou);

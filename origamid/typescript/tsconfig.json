@@ -2,6 +2,5 @@
   "compilerOptions": {
     "target": "ESNext",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
     "strict": true,                                      /* Enable all strict type-checking options. */
-    
   }
 }

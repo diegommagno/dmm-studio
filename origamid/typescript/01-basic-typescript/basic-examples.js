@@ -1,4 +1,4 @@
-//@ts-check
+// Adding @ - ts-check
 // This will indicate possible errors in the code. It's best to create a typescript file.
 
 const phrase = 'Front End';
